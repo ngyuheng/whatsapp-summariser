@@ -128,7 +128,7 @@ The script loads the API key from the .env file using the dotenv package, so ens
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/ngyuheng/whatsapp-summariser/}graphs/contributors">
+   <a href="https://github.com/ngyuheng/whatsapp-summariser/graphs/contributors">
       <img src="https://contrib.rocks/image?repo=ngyuheng/whatsapp-summariser">
    </a>
 </p>
