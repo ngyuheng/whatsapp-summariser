@@ -87,6 +87,9 @@ git clone https://github.com/ngyuheng/whatsapp-summariser
 
 ###  Usage
 
+Note: It's recommended to comment out line 40, otherwise login QR Code will not appear. After login, the line may be uncommented.
+Note: Close existing Chrome Tabs. Otherwise an error will be raised. ("Message: session not created: Chrome failed to start: crashed.")
+
 #### 1. Chrome Profile Path
 The script uses a specific Chrome user profile to bypass logging in to WhatsApp Web. On a different machine, you must update the path to your Chrome user profile.
 
@@ -123,6 +126,12 @@ API_KEY=your_api_key_here
 ```
 The script loads the API key from the .env file using the dotenv package, so ensure the file is in the correct location.
 
+#### 4. Run the Python File
+Run using the following command:
+
+```sh
+python summariser.py
+```
 
 ---
 <summary>Contributor Graph</summary>
